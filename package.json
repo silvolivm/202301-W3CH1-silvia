@@ -1,7 +1,7 @@
 {
-  "name": "week2 - TS",
+  "name": "202301-W3CH1-silvia",
   "version": "1.0.0",
-  "description": "Ejercicios semana 2 . Bootcamp Madrid",
+  "description": "Juego de tronos",
   "main": "index.js",
   "type": "module",
   "scripts": {
