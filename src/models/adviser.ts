@@ -11,10 +11,12 @@ export class Adviser extends Character {
     age: number,
     public whoToAdvise: King | Fighter | Adviser | Squire
   ) {
-    super(charName, family, age);
+    super(charName, family, age, true);
   }
 
   greetings(): string {
-    return greetings() + 'No sé por qué, pero creo que voy a morir pronto';
+    return (
+      super.greetings() + 'No sé por qué, pero creo que voy a morir pronto'
+    );
   }
 }
