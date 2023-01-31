@@ -3,8 +3,8 @@ import { King } from './king';
 
 describe('Given the king class extend from the character', () => {
   describe('When you create a new king', () => {
-    const king = new King('Tyrion', 'Lannister', 43, 7);
-    const adviser = new Adviser('Tyrion', 'Lannister', 23, king);
+    const king = new King('Joffrey', 'Baratheon', 55, true, 9);
+    const adviser = new Adviser('Tyrion', 'Lannister', 43, king);
     test('Then it values should be filled', () => {
       expect(adviser).toHaveProperty('whoToAdvise');
     });

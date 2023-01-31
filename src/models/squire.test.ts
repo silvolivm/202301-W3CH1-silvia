@@ -3,7 +3,7 @@ import { Squire } from './squire';
 
 describe('Given the king class extend from the character', () => {
   describe('When you create a new king', () => {
-    const fighter = new Fighter('Jaime', 'Lannister', 43, 'Mazo', 7);
+    const fighter = new Fighter('Jaime', 'Lannister', 43, true, 'Mazo', 7);
     const squire = new Squire('Bronn', '', 23, fighter, 5);
     test('Then it values should be filled', () => {
       expect(squire).toHaveProperty('whoServes');
