@@ -2,8 +2,8 @@ import { King } from './king';
 
 describe('Given the king class extend from the character', () => {
   describe('When you create a new king', () => {
-    const kingJoffrey = new King('Joffrey', 'Baratheon', 55, 9);
-    const king = new King('Joffrey', 'Baratheon', 55, true, 7);
+    const kingJoffrey = new King('Joffrey', 'Baratheon', 55, true, 9);
+    const king = new King('Joffrey', 'Baratheon', 55, true, 9);
     test('Then it values should be filled', () => {
       expect(king).toHaveProperty('kingdomYears');
     });

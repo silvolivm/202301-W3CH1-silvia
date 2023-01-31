@@ -15,8 +15,6 @@ export class Adviser extends Character {
   }
 
   greetings(): string {
-    return (
-      super.greetings() + 'No sé por qué, pero creo que voy a morir pronto'
-    );
+    return greetings() + 'No sé por qué, pero creo que voy a morir pronto';
   }
 }

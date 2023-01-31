@@ -6,10 +6,12 @@ export class Squire extends Character {
     charName: string,
     family: string,
     age: number,
+    // eslint-disable-next-line no-unused-vars
     public whoServes: Fighter,
+    // eslint-disable-next-line no-unused-vars
     public service: number
   ) {
-    super(charName, family, age);
+    super(charName, family, age, true);
   }
 
   greetings(): string {

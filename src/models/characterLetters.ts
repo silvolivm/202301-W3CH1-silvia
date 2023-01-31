@@ -17,7 +17,7 @@ const fighterDaenerys = new Fighter(
 const adviserTyrion = new Adviser('Tyrion', 'Lannister', 43, fighterDaenerys);
 const squireBronn = new Squire('Bronn', '', 31, fighterJaime, 7);
 
-export const characters: Character[] = [
+export const charactersLetters: Character[] = [
   kingJoffrey,
   fighterJaime,
   fighterDaenerys,
